@@ -1,0 +1,125 @@
+/* Profile Section */
+.profile-summary {
+    padding: 20px 0px;
+    /* background: rgb(253,251,251);
+    background: linear-gradient(218deg, rgba(253,251,251,1) 0%, rgba(235,237,238,1) 100%); */
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+
+}
+
+.profile-summary .profile-img {
+    height: 200px;
+    width: 200px;
+    border: 2px solid;
+    box-shadow: 0px 10px 25px 0px rgba(7, 6, 6, 0.3);
+    display: block;
+    margin: 0 auto;
+}
+
+.profile-summary h2,
+.profile-summary h3,
+.profile-summary h4,
+.profile-summary h5 {
+    margin-top: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+/* Work Summary */
+.work-summary {
+    margin-top: -50px;
+    /* background-color: #8EC5FC; */
+    /* background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%); */
+}
+
+.work-summary .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.work-summary .box i {
+    margin: 20px;
+}
+
+.work-summary .box p {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Work History */
+#work-history {
+    margin: 10px 0px;
+    margin-bottom: 30px;
+    /* background-color: #8EC5FC; */
+    /* background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%); */
+    color: black;
+    text-align: center;
+}
+
+#work-history h1,
+#work-history h2,
+#work-history h3,
+#work-history h4,
+#work-history h5,
+#work-history h6 {
+    padding-top: 15px;
+    margin: 0px;
+}
+
+#work-history .job {
+    margin-top: 15px;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    border: 2px solid;
+}
+
+#work-history .job .job-title{
+    margin: 0px;
+    border-bottom: .5px solid;
+    padding: 5px;
+}
+
+#work-history .job .job-desc {
+    margin: 10px 8px;
+    padding: 0px;
+}
+
+#work-history .job .styled {
+    margin: 15px 8px;
+    text-decoration: underline;
+}
+
+
+
+
+
+/* Utilities */
+.container {
+    margin: 0px auto;
+    max-width: 900px;
+    overflow: auto;
+    padding: 0px;
+}
+
+.box {
+    width: 230px;
+    height: 148px;
+    border: 1px solid gray;
+    background: white;
+    margin: 0px 0.5px;
+    text-align: center;
+}
+
+.blue-font {
+    color: blueviolet;
+}
+
+
+
+
+
+
